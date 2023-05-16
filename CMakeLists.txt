@@ -39,7 +39,7 @@ add_library(reflexxes SHARED src/ReflexxesAPI.cpp
                             src/TypeIIRMLVelocityMethods.cpp
                             src/TypeIIRMLVelocitySetupPhaseSyncSelectionVector.cpp)
 
-ament_export_include_directories(include)
+ament_export_include_directories(include/reflexxes)
 install(DIRECTORY include/ DESTINATION include)
 install(TARGETS reflexxes LIBRARY DESTINATION lib)
 
